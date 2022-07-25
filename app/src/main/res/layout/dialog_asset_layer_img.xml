@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10sp">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close" />
+
+    <ImageView
+        android:id="@+id/image_data"
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:layout_below="@+id/close"
+        android:layout_marginTop="10sp"
+        android:scaleType="fitCenter" />
+</RelativeLayout>

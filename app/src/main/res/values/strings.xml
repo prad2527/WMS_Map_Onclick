@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WMSMap_Onclick</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="processing">Please wait...</string>
+    <string name="no_internet">Please check your Internet Connection.</string>
+
+</resources>
